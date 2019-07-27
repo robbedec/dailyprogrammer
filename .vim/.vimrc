@@ -19,6 +19,7 @@ set ruler
 set ic " ignore case when searching
 set hls " highlight all matching phrases
 set is " show parial matches for a search phrase
+set ai " auto indetation"
 
 
 set expandtab " tabs are spaces
