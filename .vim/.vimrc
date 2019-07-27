@@ -1,4 +1,9 @@
 " Author: Robbe Decorte <decorte.robbe@hotmail.com>
+"
+" To use it, copy it to
+"     for Unix and OS/2:      ~/.vimrc
+"     for MS-DOS and Win32:   $VIM\_vimrc (where $VIM is usually "C:\Program Files (x86)\vim")
+"
 
 
 source $VIMRUNTIME/vimrc_example.vim
