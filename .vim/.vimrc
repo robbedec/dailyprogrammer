@@ -16,6 +16,11 @@ set showcmd " show command in bottom bar
 set cursorline " highlight current line
 set ruler
 
+set ic " ignore case when searching
+set hls " highlight all matching phrases
+set is " show parial matches for a search phrase
+
+
 set expandtab " tabs are spaces
 set tabstop=4 " number of visual spaces per TAB
 set softtabstop=4 " number of spaces in tab when editing
