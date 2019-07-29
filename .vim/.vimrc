@@ -29,4 +29,8 @@ set backspace=indent,eol,start
 set spl=en spell " set spellcheck language to english
 set nospell " disable spellcheck by default
 
+set guioptions-=m  " hide menu bar
+set guioptions-=T  " hide toolbar
+set guioptions-=r  " hide scrollbar
+
 nmap <F6> :NERDTreeToggle<CR> " toggle NERDTree
