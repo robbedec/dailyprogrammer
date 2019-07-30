@@ -52,3 +52,6 @@ set autochdir                         " auto cd to the folder where the file is 
 
 " externam vimrc files
 set exrc                              " allow an extra vimrc per project
+
+" miscellaneous
+set statusline=\PATH:\ %r%F\ \ \ \ \LINE:\ %l/%L/%P\ TIME:\ %{strftime('%c')}
