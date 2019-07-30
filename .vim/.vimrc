@@ -26,6 +26,8 @@ highlight Comment ctermfg=green       " highlight comments in green
 set spl=en spell                      " set spellcheck language to english
 set nospell                           " disable spellcheck by default
 set nowrap                            " disable line wrapping
+set splitbelow
+set splitright
 
 " search mode
 set ic                                " ignore case when searching
@@ -57,3 +59,4 @@ set exrc                              " allow an extra vimrc per project
 
 " miscellaneous
 set statusline=\PATH:\ %r%F\ \ \ \ \LINE:\ %l/%L/%P\ TIME:\ %{strftime('%c')}
+set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
