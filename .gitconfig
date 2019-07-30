@@ -1,6 +1,9 @@
 [user]
 	name = Robbe Decorte
 	email = robbe.decorte@student.hogent.be
+[core]
+	excludesfile = ~/.gitignore_global
+	editor = vim
 [push]
 	default = simple
 [github]
@@ -9,9 +12,12 @@
 	ui = true
 [alias]
 	co = checkout
+	ci = commit
+	br = branch
+	last = log -1 HEAD --
 [pull]
 	rebase = true
 [rebase]
 	autoStash = true
 [commit]
-	template = ~/.gitmessage
+	#template = ~/.gitmessage
