@@ -19,6 +19,7 @@ syntax enable
 set number                            " show line numbers
 set showcmd                           " show command in bottom bar
 set wildmenu                          " better tab completion on file names
+set wildmode=longest:full,full
 set cursorline                        " highlight current line
 set ruler                             " show current position at bottom
 highlight Comment ctermfg=green       " highlight comments in green
