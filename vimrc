@@ -7,7 +7,6 @@
 
 
 " base settings
-language en_US                        " base language
 syntax on                             " syntax highlighting
 set nocompatible                      " vim, not vi
 filetype plugin indent on             " try to recognise filetype and load plugins and indent files
@@ -20,7 +19,6 @@ set number                            " show line numbers
 set showcmd                           " show command in bottom bar
 set wildmenu                          " better tab completion on file names
 set wildmode=longest:full,full
-set cursorline                        " highlight current line
 set ruler                             " show current position at bottom
 highlight Comment ctermfg=green       " highlight comments in green
 set spl=en spell                      " set spellcheck language to english
