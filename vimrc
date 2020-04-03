@@ -52,6 +52,9 @@ set autoread                          " update file when changed outsite of vim
 set ai                                " auto indetation, copy indentation from previous line
 set autochdir                         " auto cd to the folder where the file is in
 
+" remap keys
+imap jj <Esc>
+
 " externam vimrc files
 set exrc                              " allow an extra vimrc per project
 
