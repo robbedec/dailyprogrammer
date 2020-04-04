@@ -46,6 +46,7 @@ set guioptions-=r                     " hide scrollbar
 
 " keybindings
 nmap <F6> :NERDTreeToggle<CR>         " toggle NERDTree
+nnoremap <esc> :noh<return><esc>
 
 " background processes
 set autoread                          " update file when changed outsite of vim
