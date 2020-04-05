@@ -29,7 +29,6 @@ set splitright
 
 " search mode
 set ic                                " ignore case when searching
-set hls                               " highlight all matching phrases
 set is                                " show parial matches for a search phrase
 set smartcase                         " don't ignore case when typing a capital letter
 
@@ -38,6 +37,7 @@ set expandtab                         " tabs are spaces
 set tabstop=2                         " number of visual spaces per TAB
 set softtabstop=2                     " number of spaces in tab when editing
 set shiftround                        " shift to next tabstop
+set shiftwidth=4                      " indent newline with x amount of tabs
 
 " toolbar
 set guioptions-=m                     " hide menu bar
@@ -46,7 +46,6 @@ set guioptions-=r                     " hide scrollbar
 
 " keybindings
 nmap <F6> :NERDTreeToggle<CR>         " toggle NERDTree
-nnoremap <esc> :noh<return><esc>
 
 " background processes
 set autoread                          " update file when changed outsite of vim
