@@ -1,8 +1,8 @@
 [user]
 	name = Robbe Decorte
-	email = robbe.decorte@student.hogent.be
+	email = robbe.decorte@ugent.be
 [core]
-	excludesfile = ~/.gitignore_global
+	excludesfile = ~/.gitignore
 	editor = vim
 [push]
 	default = simple
