@@ -19,5 +19,3 @@
 	rebase = true
 [rebase]
 	autoStash = true
-[commit]
-	#template = ~/.gitmessage
