@@ -1,0 +1,5 @@
+defscrollback 20000
+startup_message off
+autodetach on
+vbell on
+vbell_msg 'Bell!'
